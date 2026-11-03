@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Payman AI | Case study</title>
+  <meta name="description" content="Case study: a self-initiated website redesign for Payman AI, an agentic banking platform." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="/assets/images/paymanai/favicon.png" />
+  <link rel="stylesheet" href="/css/case-study-v3.css" />
+</head>
+<body>
+  <div class="deck" id="deck">
+    <header class="deck__bar">
+      <span class="mono">Payman AI <span class="deck__dim">/ Case study</span></span>
+      <nav class="deck__nav" aria-label="Slides">
+        <span class="deck__count mono" id="deck-count" aria-live="polite"></span>
+        <button class="deck__btn" type="button" data-dir="-1" aria-label="Previous slide">←</button>
+        <button class="deck__btn" type="button" data-dir="1" aria-label="Next slide">→</button>
+      </nav>
+    </header>
+
+    <main class="deck__slides">
+
+      <!-- 01 · Project introduction -->
+      <section class="slide intro intro--cover" aria-labelledby="intro-h">
+        <div class="intro__main">
+          <div class="intro__title">
+            <h1 id="intro-h">Payman AI</h1>
+          </div>
+          <dl class="intro__meta">
+            <div><dt class="mono">Project</dt><dd>Payman AI</dd></div>
+            <div><dt class="mono">Industry</dt><dd>Fintech / Agentic banking</dd></div>
+            <div><dt class="mono">Project type</dt><dd>Self-initiated redesign</dd></div>
+            <div><dt class="mono">Scope</dt><dd>Website design, built as a working prototype</dd></div>
+          </dl>
+        </div>
+        <div class="intro__shot"><img src="/assets/images/case-study/cover-page.jpg" width="2880" height="4200" alt="The top of the redesigned Payman homepage: the headline “We deploy AI agents that handle money.”, the four payment-stage cards, the 55% and 200M+ figures, and the start of the section on where customers’ questions go." /></div>
+      </section>
+
+      <!-- 02 · The starting point -->
+      <section class="slide shot shot--found" aria-labelledby="start-h">
+        <div class="shot__stage">
+          <div class="board board--source">
+            <img class="source__hero" src="/assets/images/case-study/first-screen-old.jpg" width="2880" height="1800" alt="Payman’s original first screen: the headline “We deploy AI agents that handle money.”, a choice between Banks and Credit Unions, and a mountain illustration." />
+            <img class="source__pay" src="/assets/images/case-study/current-product.jpg" width="1600" height="914" alt="Payman’s payment example: a customer asks “Pay all my vendors for the month.” The agent lists five payments totalling $12,480 and asks for an approval code." />
+          </div>
+        </div>
+        <div class="shot__caption">
+          <h2 id="start-h">The starting point</h2>
+          <p>Payman already had a clear headline, a concrete payment example and detailed safeguards. I used those existing ingredients as the foundation for the redesign.</p>
+        </div>
+      </section>
+
+      <!-- 03 · One payment, four steps -->
+      <section class="slide shot shot--decision" aria-labelledby="decision-h">
+        <div class="shot__stage">
+          <div class="board board--screen">
+            <img src="/assets/images/case-study/first-screen-new.jpg" width="2880" height="1800" alt="The redesigned first screen: the headline “We deploy AI agents that handle money.” and, beneath it, four cards for Request, Policy check, Approval required and Audit log." />
+          </div>
+        </div>
+        <div class="shot__caption">
+          <h2 id="decision-h">One payment, four steps</h2>
+          <p>I kept the original headline and brought a request, policy check, approval and audit log into a simple sequence near the top. My intention was to introduce both what the agent does and how the bank stays in control.</p>
+        </div>
+      </section>
+
+      <!-- 04 · A payment, step by step -->
+      <section class="slide shot" aria-labelledby="how-h">
+        <div class="shot__stage">
+          <div class="board">
+            <div class="live" data-section=".how" data-restart="#steps li button"><iframe src="/" title="The How it works section of the redesigned site, cycling through Ask, Check, Approve and Settle while the bank chat fills in." tabindex="-1"></iframe></div>
+          </div>
+        </div>
+        <div class="shot__caption">
+          <h2 id="how-h">A payment, step by step</h2>
+          <p>The hero’s four cards return as a working sequence: the customer asks, the policy check runs, a person approves with a code, and the payment is logged. A bank can follow one payment from start to finish before it books a demo.</p>
+        </div>
+      </section>
+
+      <!-- 05 · Design language -->
+      <section class="slide shot" aria-labelledby="lang-h">
+        <div class="shot__stage">
+          <div class="board board--lang">
+            <div class="lang">
+              <div class="lang__spec"><div class="spec-frame" aria-hidden="true"><span>+</span><span>+</span></div></div>
+              <span class="sys__label">01</span>
+              <h3>Drafting sheet</h3>
+              <p>Thin rules down each side of the page, with a + where sections meet, like ruled stock.</p>
+            </div>
+            <div class="lang">
+              <div class="lang__spec spec-hatch" aria-hidden="true"><div><b>Customer stays.</b><u></u><u></u></div></div>
+              <span class="sys__label">02</span>
+              <h3>Hatched paper</h3>
+              <p>A fine diagonal hatch behind comparisons, quotes and proof, so they read as filed documents.</p>
+            </div>
+            <div class="lang">
+              <div class="lang__spec spec-palette" aria-hidden="true"><i style="--c: #0E3D42"></i><i style="--c: #F4FF45"></i><i style="--c: #D4B3CA"></i><img src="/assets/images/paymanai/footer.png" alt="" /></div>
+              <span class="sys__label">03</span>
+              <h3>Payman’s own palette</h3>
+              <p>The deep teal, the yellow and the mauve halftone all come from the current brand.</p>
+            </div>
+            <div class="lang">
+              <div class="lang__spec"><img class="spec-img spec-img--cards" src="/assets/images/case-study/system-sheets.jpg" alt="" /></div>
+              <span class="sys__label">04</span>
+              <h3>Document cards</h3>
+              <p>White cards with a thin outline and a colored strip, like tabbed forms in a file.</p>
+            </div>
+            <div class="lang">
+              <div class="lang__spec spec-labels" aria-hidden="true"><span>01 · Request</span><span>Ref PM-2026-001 // Version 1.0</span><span>TD Bank · 2026 AI Insights Report</span></div>
+              <span class="sys__label">05</span>
+              <h3>Form labels</h3>
+              <p>Small uppercase mono for numbers, references and sources: the voice of a form or a footnote.</p>
+            </div>
+            <div class="lang">
+              <div class="lang__spec spec-type" aria-hidden="true"><b>That handle money.</b><span>Agents that carry out real banking transactions.</span></div>
+              <span class="sys__label">06</span>
+              <h3>Institutional serif</h3>
+              <p>Newsreader gives headlines the tone of a bank letter. Geist keeps the body text plain and easy to read.</p>
+            </div>
+          </div>
+        </div>
+        <div class="shot__caption">
+          <h2 id="lang-h">Design language: paperwork</h2>
+          <p>I kept Payman’s teal, yellow and mauve, and developed a paperwork-inspired language: serif type, hairline rules, small labels and document-like cards.</p>
+        </div>
+      </section>
+
+      <!-- 06 · Applied: control and security -->
+      <section class="slide shot" aria-labelledby="sec-h">
+        <div class="shot__stage">
+          <div class="board board--pair">
+            <img src="/assets/images/case-study/controls.jpg" width="2588" height="2010" alt="Teal section headed “You set the rules. You see every action.” with three columns, Your rules, Full audit trail and Kill switch, and a row placing the Payman governed agent layer between the bank’s cores and anything that moves money." />
+            <img src="/assets/images/case-study/security.jpg" width="2588" height="1740" alt="Section headed “Built like bank infrastructure. Because it is.” with three tabs: Data &amp; custody, Identity &amp; policy, Audit &amp; control. The open tab pairs the promise “Your data and your funds stay yours.” and a SOC badge with two spec rows on teal: data isolation and custody." />
+          </div>
+        </div>
+        <div class="shot__caption">
+          <h2 id="sec-h">Making control visible</h2>
+          <p>I gave the bank’s rules, audit trail and kill switch a prominent section, then organized the detailed security information into three tabs. Each tab pairs a plain-language summary with technical details.</p>
+        </div>
+      </section>
+
+      <!-- 07 · The system -->
+      <section class="slide shot" aria-labelledby="sys-h">
+        <div class="shot__stage">
+          <div class="board board--kit">
+            <div class="kit">
+              <span class="sys__label">Type scale</span>
+              <div class="kit__type">
+                <div><p class="t-display">Handle money.</p><span class="kit__spec">Display · Newsreader 80</span></div>
+                <div><p class="t-h2">Four steps to payment.</p><span class="kit__spec">Heading · Newsreader 52</span></div>
+                <div><p class="t-h3">Kill switch</p><span class="kit__spec">Subhead · Newsreader 30</span></div>
+                <div><p class="t-body">Every action logged, every decision traceable.</p><span class="kit__spec">Body · Geist 15</span></div>
+                <div><p class="t-label">01 · Request</p><span class="kit__spec">Label · Geist Mono 10, caps</span></div>
+              </div>
+            </div>
+            <div class="kit">
+              <span class="sys__label">Color roles</span>
+              <ul class="kit__colors">
+                <li style="--c: #F3F3F0"><b>Paper <small>#F3F3F0</small></b><span>Page surface</span></li>
+                <li style="--c: #0B0B0B"><b>Black <small>#0B0B0B</small></b><span>Text, buttons, dark sections</span></li>
+                <li style="--c: #0E3D42"><b>Teal <small>#0E3D42</small></b><span>Brand, control and security sections</span></li>
+                <li style="--c: #66D6CC"><b>Cyan <small>#66D6CC</small></b><span>Accents on dark sections</span></li>
+                <li style="--c: #D4B3CA"><b>Mauve <small>#D4B3CA</small></b><span>Policy check step, halftone art</span></li>
+                <li style="--c: #F4FF45"><b>Yellow <small>#F4FF45</small></b><span>Approval step, highlights</span></li>
+              </ul>
+            </div>
+            <div class="kit" aria-hidden="true">
+              <span class="sys__label">Elements</span>
+              <div class="kit__group">
+                <span class="kit__spec">Buttons and links</span>
+                <div class="kit__row"><span class="k-btn">Meet your agent</span><span class="k-btn k-btn--sm">Meet your agent</span><span class="k-link">See how it works</span></div>
+              </div>
+              <div class="kit__group">
+                <span class="kit__spec">Section tags: on paper, teal and black</span>
+                <div class="kit__tags"><span class="k-ground"><span class="k-tag">How it works</span></span><span class="k-ground k-ground--teal"><span class="k-tag k-tag--light">You stay in control</span></span><span class="k-ground k-ground--black"><span class="k-tag k-tag--dark">How it works</span></span></div>
+              </div>
+              <div class="kit__group">
+                <span class="kit__spec">Cards: document and notched</span>
+                <div class="kit__cards">
+                  <div class="k-sheet"><i></i><b>02 · Policy check</b><span>Limits · payee · amount</span><u></u><u></u></div>
+                  <div class="k-card"><p>Payman is SOC 2 Type II.</p></div>
+                </div>
+              </div>
+              <div class="kit__group">
+                <span class="kit__spec">Tabs</span>
+                <div class="k-tabs"><span class="is-on">Data &amp; custody</span><span>Identity &amp; policy</span><span>Audit &amp; control</span></div>
+              </div>
+              <div class="kit__group">
+                <span class="kit__spec">Step list</span>
+                <div class="k-step"><b>02 · Check</b><span>Policy checks every action</span><i></i></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="shot__caption">
+          <h2 id="sys-h">A small system for the site</h2>
+          <p>I brought the direction together through a consistent type scale, color palette and reusable elements, including buttons, cards and tabs. These choices helped the prototype feel cohesive and provide a starting point for expanding the site.</p>
+        </div>
+      </section>
+
+      <!-- 08 · How it was made -->
+      <section class="slide intro" aria-labelledby="made-h">
+        <div class="made__head">
+          <div class="made__title">
+            <h1 id="made-h">A working prototype</h1>
+          </div>
+          <p class="made__text">I brought the redesign to life as a responsive website, using AI tools to help explore and build the experience. This was a self-initiated project; the outcome is the design and working prototype.</p>
+        </div>
+        <img class="made__art" src="/assets/images/case-study/footer-art.jpg" width="2880" height="1147" alt="The site’s footer art: teal and mauve halftone with a giant faded Payman wordmark." />
+      </section>
+
+    </main>
+  </div>
+
+  <script src="/js/case-study-v3.js"></script>
+</body>
+</html>
